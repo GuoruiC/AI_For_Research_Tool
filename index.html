@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>科研效率 AI 工具 Deck</title>
+  <meta
+    name="description"
+    content="提升科研效率的 AI 工具与小技巧。以本地静态 PPT 风格页面展示论文检索、创新分析、代码辅助与论文润色工具。"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="deck-app">
+    <header class="deck-header">
+      <div class="deck-brand">
+        <span class="brand-dot"></span>
+        <span>Research AI Deck</span>
+      </div>
+      <div class="deck-meta">
+        <span id="slideCounter">01 / 08</span>
+        <span>方向键 / 空格 / 鼠标滚轮切换</span>
+      </div>
+    </header>
+
+    <main class="deck" id="deck">
+      <section class="slide cover is-active" data-title="封面">
+        <div class="slide-inner cover-layout">
+          <div class="cover-copy">
+            <p class="eyebrow">AI For Research Workflow</p>
+            <h1>提升科研效率的 AI 工具与小技巧</h1>
+            <p class="lead">
+              从找论文、追踪 SOTA、分析创新，到辅助写代码、润色论文，一套适合实验室分享和个人科研导航的工具总结。
+            </p>
+          </div>
+          <div class="cover-side">
+            <div class="cover-chip">2026 实用版</div>
+            <div class="cover-chip">SAIL (Safe AI Lab)</div>
+            <div class="cover-chip">2026.3.21汇报</div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="总览">
+        <div class="slide-inner">
+          <div class="section-head">
+            <p class="eyebrow">Workflow Overview</p>
+            <h2>一套完整科研提速链路</h2>
+            <p>用 4 个阶段构成从输入到输出的高效工作流，避免在检索、对比和整理中消耗大量机械时间。</p>
+          </div>
+
+          <div class="overview-grid">
+            <article class="overview-card">
+              <span>01</span>
+              <h3>文献发现</h3>
+              <p>语义搜索、引用图谱、批量摘要，快速摸清领域全貌和 SOTA。</p>
+            </article>
+            <article class="overview-card">
+              <span>02</span>
+              <h3>创新分析</h3>
+              <p>结合 LLM 与引用证据，定位 gap、对比贡献、判断 novelty。</p>
+            </article>
+            <article class="overview-card">
+              <span>03</span>
+              <h3>代码实现</h3>
+              <p>复现实验、调试脚本、数据分析与可视化全面提速。</p>
+            </article>
+            <article class="overview-card">
+              <span>04</span>
+              <h3>论文打磨</h3>
+              <p>从逻辑改写到语言润色，再到投稿前的细节收尾。</p>
+            </article>
+          </div>
+
+          <div class="highlight-strip">
+            <div>
+              <strong>5-10x</strong>
+              <span>效率提升潜力</span>
+            </div>
+            <div>
+              <strong>20+</strong>
+              <span>工具已整理</span>
+            </div>
+            <div>
+              <strong>10 页</strong>
+              <span>PPT 式浏览体验</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="论文检索">
+        <div class="slide-inner">
+          <div class="section-head">
+            <p class="eyebrow">Stage 1</p>
+            <h2>找论文与现状调研</h2>
+            <p>适合快速建立研究地图、筛核心文献和做综述底稿。</p>
+          </div>
+
+          <div class="tool-grid tool-grid-nine">
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/elicit.ico" alt="Elicit logo" />
+                <div><h3>Elicit</h3><p>自然语言搜题，自动抽取论文表格信息。</p></div>
+              </div>
+              <a href="https://elicit.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/semantic-scholar.ico" alt="Semantic Scholar logo" />
+                <div><h3>Semantic Scholar</h3><p>免费强力检索，适合筛文和看引用关系。</p></div>
+              </div>
+              <a href="https://www.semanticscholar.org/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/scispace.ico" alt="SciSpace logo" />
+                <div><h3>SciSpace</h3><p>上传 PDF 直接问方法、局限和对比结论。</p></div>
+              </div>
+              <a href="https://scispace.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/litmaps.ico" alt="Litmaps logo" />
+                <div><h3>Litmaps</h3><p>输入种子论文，自动扩展引用地图。</p></div>
+              </div>
+              <a href="https://www.litmaps.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/connected-papers.ico" alt="Connected Papers logo" />
+                <div><h3>Connected Papers</h3><p>用可视化图谱理解方向分支和关联文献。</p></div>
+              </div>
+              <a href="https://www.connectedpapers.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/research-rabbit.ico" alt="Research Rabbit logo" />
+                <div><h3>Research Rabbit</h3><p>适合长期追踪研究主题和持续发现新文献。</p></div>
+              </div>
+              <a href="https://www.researchrabbit.ai/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <span class="tool-logo generic-icon" aria-hidden="true"></span>
+                <div><h3>NotebookLM</h3><p>批量上传 PDF 做总结、对比、问答和知识归档。</p></div>
+              </div>
+              <a href="https://notebooklm.google/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/consensus.ico" alt="Consensus logo" />
+                <div><h3>Consensus</h3><p>适合回答“学界是否支持某个观点”这类问题。</p></div>
+              </div>
+              <a href="https://consensus.app/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/paper-digest.ico" alt="Paper Digest logo" />
+                <div><h3>Paper Digest</h3><p>追踪领域新论文更新，适合做每周扫新。</p></div>
+              </div>
+              <a href="https://www.paperdigest.org/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+          </div>
+
+          <div class="slide-tip">推荐顺序：Elicit / Semantic Scholar 搜核心文献，NotebookLM 批量总结，Litmaps 补漏。</div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="创新分析">
+        <div class="slide-inner">
+          <div class="section-head">
+            <p class="eyebrow">Stage 2</p>
+            <h2>分析论文动机与创新性</h2>
+            <p>没有绝对可靠的“创新打分器”，但可以用大模型 + 引用证据做高效交叉判断。</p>
+          </div>
+
+          <div class="split-layout">
+            <div class="tool-grid tool-grid-four">
+              <article class="tool-card">
+                <div class="tool-top">
+                  <img class="tool-logo" src="./assets/logos/claude.ico" alt="Claude logo" />
+                  <div><h3>Claude</h3><p>长上下文强，适合深读论文与比较贡献。</p></div>
+                </div>
+                <a href="https://claude.ai/" target="_blank" rel="noreferrer">官网直达</a>
+              </article>
+              <article class="tool-card">
+                <div class="tool-top">
+                  <span class="tool-logo generic-icon" aria-hidden="true"></span>
+                  <div><h3>ChatGPT</h3><p>适合多轮验证、结构化总结和检查推理链。</p></div>
+                </div>
+                <a href="https://chatgpt.com/" target="_blank" rel="noreferrer">官网直达</a>
+              </article>
+              <article class="tool-card">
+                <div class="tool-top">
+                  <span class="tool-logo generic-icon" aria-hidden="true"></span>
+                  <div><h3>Scite</h3><p>看论文是被支持、反驳还是仅被提及。</p></div>
+                </div>
+                <a href="https://scite.ai/" target="_blank" rel="noreferrer">官网直达</a>
+              </article>
+              <article class="tool-card">
+                <div class="tool-top">
+                  <img class="tool-logo" src="./assets/logos/paperguide.ico" alt="Paperguide logo" />
+                  <div><h3>Paperguide</h3><p>适合做研究空白发现和多文献对比辅助。</p></div>
+                </div>
+                <a href="https://paperguide.ai/" target="_blank" rel="noreferrer">官网直达</a>
+              </article>
+            </div>
+
+            <div class="prompt-card">
+              <p class="eyebrow">可直接复制的 Prompt</p>
+              <pre><code>你是领域顶级审稿人。请严格分析这篇论文：
+1. 核心研究动机和提出的 gap 是什么？
+2. 主要贡献与创新点（技术/理论/实验）？
+3. 与前 3-5 篇关键文献相比，是否真正新颖？有何局限？
+4. 建议的未来工作方向。
+请用 bullet points + 证据引用原文。</code></pre>
+              <p class="prompt-note">推荐交叉用法：Claude 分析，ChatGPT 查证，Scite 看证据，最后由你自己判断 novelty。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="代码辅助">
+        <div class="slide-inner">
+          <div class="section-head">
+            <p class="eyebrow">Stage 3</p>
+            <h2>代码辅助撰写与实验实现</h2>
+            <p>让 AI 参与复现、调试、脚本开发和数据分析，把时间从机械编码转向研究判断。</p>
+          </div>
+
+          <div class="tool-grid tool-grid-six">
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/cursor.ico" alt="Cursor logo" />
+                <div><h3>Cursor</h3><p>项目级上下文强，适合科研代码日常开发。</p></div>
+              </div>
+              <a href="https://www.cursor.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/claude-code.ico" alt="Claude Code logo" />
+                <div><h3>Claude Code</h3><p>适合复杂重构、调试和多文件代码理解。</p></div>
+              </div>
+              <a href="https://claude.com/product/claude-code" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/claude.ico" alt="Claude.ai logo" />
+                <div><h3>Claude.ai</h3><p>浏览器里快速生成代码块、解释思路和写方案。</p></div>
+              </div>
+              <a href="https://claude.ai/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/github-copilot.ico" alt="GitHub Copilot logo" />
+                <div><h3>GitHub Copilot</h3><p>补全稳定，适合连续写脚本与轻量仓库任务。</p></div>
+              </div>
+              <a href="https://github.com/features/copilot" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/openai-codex.ico" alt="OpenAI Codex logo" />
+                <div><h3>OpenAI Codex</h3><p>关注 agent 式开发工作流时很值得跟进。</p></div>
+              </div>
+              <a href="https://openai.com/codex/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/julius.ico" alt="Julius AI logo" />
+                <div><h3>Julius AI</h3><p>上传 CSV 就能直接问统计和图表分析问题。</p></div>
+              </div>
+              <a href="https://julius.ai/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+          </div>
+
+          <div class="note-row">
+            <div class="note-box">“用 Python + PyTorch 复现这篇论文的 Figure 2，提供完整可运行代码 + 注释 + 可能报错处理。”</div>
+            <div class="note-box">“我是生物信息学新人，逐步解释这段代码，每步加中文注释，并优化内存占用。”</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="论文润色">
+        <div class="slide-inner">
+          <div class="section-head">
+            <p class="eyebrow">Stage 4</p>
+            <h2>论文修改与润色</h2>
+            <p>建议先重写逻辑，再润色学术表达，最后做语法、术语和格式收尾。</p>
+          </div>
+
+          <div class="tool-grid tool-grid-five">
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/paperpal.ico" alt="Paperpal logo" />
+                <div><h3>Paperpal</h3><p>术语一致性、学术语气和 readiness 检查很实用。</p></div>
+              </div>
+              <a href="https://www.paperpal.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/openai-prism.ico" alt="OpenAI Prism logo" />
+                <div><h3>OpenAI Prism</h3><p>LaTeX 原生工作区，适合科研写作与协作修改。</p></div>
+              </div>
+              <a href="https://openai.com/prism/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/grammarly.ico" alt="Grammarly logo" />
+                <div><h3>Grammarly</h3><p>适合最终语法和清晰度校对。</p></div>
+              </div>
+              <a href="https://www.grammarly.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/quillbot.ico" alt="QuillBot logo" />
+                <div><h3>QuillBot</h3><p>适合改写句子表达和快速生成多个版本。</p></div>
+              </div>
+              <a href="https://quillbot.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+            <article class="tool-card">
+              <div class="tool-top">
+                <img class="tool-logo" src="./assets/logos/writefull.ico" alt="Writefull logo" />
+                <div><h3>Writefull</h3><p>更偏论文体句式增强和学术措辞优化。</p></div>
+              </div>
+              <a href="https://www.writefull.com/" target="_blank" rel="noreferrer">官网直达</a>
+            </article>
+          </div>
+
+          <div class="slide-tip">推荐顺序：Claude 重构逻辑 → Prism / Paperpal 做学术整理 → Grammarly 最后一轮查错。</div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="提示与原则">
+        <div class="slide-inner">
+          <div class="section-head">
+            <p class="eyebrow">Universal Tips</p>
+            <h2>通用 Prompt 技巧与注意事项</h2>
+            <p>好的工具组合很重要，但更关键的是给足角色、上下文、目标和验证步骤。</p>
+          </div>
+
+          <div class="tips-grid">
+            <article class="tips-card">
+              <h3>Prompt 技巧</h3>
+              <ul>
+                <li>永远加角色，例如“你是 Nature 审稿人”。</li>
+                <li>永远给上下文，贴参考文献或代码片段。</li>
+                <li>先总结，再批判，最后生成实现或改写。</li>
+                <li>Zotero 管文献，Obsidian / Notion AI 管笔记。</li>
+              </ul>
+            </article>
+            <article class="tips-card">
+              <h3>使用原则</h3>
+              <ul>
+                <li>AI 输出必须人工验证，尤其是引用、公式和实验结论。</li>
+                <li>不要直接照搬生成文本，必须确认符合期刊规范。</li>
+                <li>多模型互查能显著降低幻觉和漏判风险。</li>
+                <li>免费额度和功能变化很快，建议定期看官网。</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="官网索引">
+        <div class="slide-inner">
+          <div class="section-head compact">
+            <p class="eyebrow">Official Links</p>
+            <h2>全部工具官网直达索引</h2>
+            <p>这一页集中收录文中所有工具官网入口，统一纯文字展示，适合演示时快速总览。</p>
+          </div>
+          <div class="link-grid text-only-links">
+            <a class="link-tile text-only" href="https://elicit.com/" target="_blank" rel="noreferrer"><span>Elicit</span></a>
+            <a class="link-tile text-only" href="https://www.semanticscholar.org/" target="_blank" rel="noreferrer"><span>Semantic Scholar</span></a>
+            <a class="link-tile text-only" href="https://scispace.com/" target="_blank" rel="noreferrer"><span>SciSpace</span></a>
+            <a class="link-tile text-only" href="https://www.litmaps.com/" target="_blank" rel="noreferrer"><span>Litmaps</span></a>
+            <a class="link-tile text-only" href="https://www.connectedpapers.com/" target="_blank" rel="noreferrer"><span>Connected Papers</span></a>
+            <a class="link-tile text-only" href="https://www.researchrabbit.ai/" target="_blank" rel="noreferrer"><span>Research Rabbit</span></a>
+            <a class="link-tile text-only" href="https://notebooklm.google/" target="_blank" rel="noreferrer"><span>NotebookLM</span></a>
+            <a class="link-tile text-only" href="https://consensus.app/" target="_blank" rel="noreferrer"><span>Consensus</span></a>
+            <a class="link-tile text-only" href="https://www.paperdigest.org/" target="_blank" rel="noreferrer"><span>Paper Digest</span></a>
+            <a class="link-tile text-only" href="https://claude.ai/" target="_blank" rel="noreferrer"><span>Claude</span></a>
+            <a class="link-tile text-only" href="https://chatgpt.com/" target="_blank" rel="noreferrer"><span>ChatGPT</span></a>
+            <a class="link-tile text-only" href="https://scite.ai/" target="_blank" rel="noreferrer"><span>Scite</span></a>
+            <a class="link-tile text-only" href="https://paperguide.ai/" target="_blank" rel="noreferrer"><span>Paperguide</span></a>
+            <a class="link-tile text-only" href="https://www.cursor.com/" target="_blank" rel="noreferrer"><span>Cursor</span></a>
+            <a class="link-tile text-only" href="https://claude.com/product/claude-code" target="_blank" rel="noreferrer"><span>Claude Code</span></a>
+            <a class="link-tile text-only" href="https://github.com/features/copilot" target="_blank" rel="noreferrer"><span>GitHub Copilot</span></a>
+            <a class="link-tile text-only" href="https://openai.com/codex/" target="_blank" rel="noreferrer"><span>OpenAI Codex</span></a>
+            <a class="link-tile text-only" href="https://julius.ai/" target="_blank" rel="noreferrer"><span>Julius AI</span></a>
+            <a class="link-tile text-only" href="https://www.paperpal.com/" target="_blank" rel="noreferrer"><span>Paperpal</span></a>
+            <a class="link-tile text-only" href="https://openai.com/prism/" target="_blank" rel="noreferrer"><span>OpenAI Prism</span></a>
+            <a class="link-tile text-only" href="https://www.grammarly.com/" target="_blank" rel="noreferrer"><span>Grammarly</span></a>
+            <a class="link-tile text-only" href="https://quillbot.com/" target="_blank" rel="noreferrer"><span>QuillBot</span></a>
+            <a class="link-tile text-only" href="https://www.writefull.com/" target="_blank" rel="noreferrer"><span>Writefull</span></a>
+            <a class="link-tile text-only" href="https://www.zotero.org/" target="_blank" rel="noreferrer"><span>Zotero</span></a>
+            <a class="link-tile text-only" href="https://obsidian.md/" target="_blank" rel="noreferrer"><span>Obsidian</span></a>
+            <a class="link-tile text-only" href="https://www.notion.so/product/ai" target="_blank" rel="noreferrer"><span>Notion AI</span></a>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <div class="deck-controls">
+      <button class="nav-button" id="prevBtn" type="button" aria-label="上一页">‹</button>
+      <div class="dot-nav" id="dotNav" aria-label="Slide Navigation"></div>
+      <button class="nav-button" id="nextBtn" type="button" aria-label="下一页">›</button>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

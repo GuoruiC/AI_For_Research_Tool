@@ -1,0 +1,115 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Wed Jan 21 2026 04:12:35 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.litmaps.com" data-wf-page="65cad3ef9f267e70e9b6bc50" data-wf-site="6343739329c53451d4f4a69a"><head><meta charset="utf-8"/><title>Not Found</title><meta content="Not Found" property="og:title"/><meta content="Not Found" property="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/css/litmaps.webflow.shared.8a6e8eeab.min.css" rel="stylesheet" type="text/css" integrity="sha384-im6O6rp+/7Ooj2TgNfHXa2JsBc3OrE/p/NLjKlmAxBmlwm4anfAMz+5aGEVn6JlV" crossorigin="anonymous"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["PT Serif:400,400italic,700,700italic","Noto Serif:regular,italic,700,700italic","Inter:100,200,300,regular,500,600,700,800,900"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6387e1263f80a9ebdc4fff60_favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6387e1285e5c124dd7b95206_webclip.png" rel="apple-touch-icon"/><link href="https://www.litmaps.com/404" rel="canonical"/><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGBQJLJ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Rewardful -->
+<script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='171996'></script>
+<!-- End Rewardful -->
+
+<style>
+  .litmaps-body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  .pointer-events-auto {
+    pointer-events: auto;
+  }
+  iframe {
+    border: none;
+  }
+  .search-input {
+    height: 70px;
+    border: 3px solid black;
+    margin: 0;
+    font-family: Calibre, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 100%;
+    padding-left: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+
+</style>
+
+<script type="text/javascript">
+// Mixpanel
+(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+
+mixpanel.init("f7750dba82c12ef4d01fc2a506de7e0f", {
+	debug: window.location.host.includes("webflow"),
+	loaded: function(mixpanel){
+      let route = window.location.pathname;
+      // Remove the preceeding "/"
+      if(route && route.length > 0){
+          route = route.substring(1);
+      }
+      route = route && route.length > 0 ? route : "home";
+      console.log("route: " + route);
+      mixpanel.register({
+          "ms-page": route,
+      });
+
+      mixpanel.track("marketing-site-entry");
+	}
+})
+</script>
+
+<script>
+// bodyScrollLock.min.js from https://github.com/willmcpo/body-scroll-lock/blob/master/lib/bodyScrollLock.min.js
+!function(e,o){if("function"==typeof define&&define.amd)define(["exports"],o);else if("undefined"!=typeof exports)o(exports);else{var t={};o(t),e.bodyScrollLock=t}}(this,function(exports){"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var t=!1;if("undefined"!=typeof window){var e={get passive(){t=!0}};window.addEventListener("testPassive",null,e),window.removeEventListener("testPassive",null,e)}function d(o){return s.some(function(e){return!(!e.options.allowTouchMove||!e.options.allowTouchMove(o))})}function l(e){var o=e||window.event;return!!d(o.target)||(1<o.touches.length||(o.preventDefault&&o.preventDefault(),!1))}function n(){void 0!==m&&(document.body.style.paddingRight=m,m=void 0),void 0!==v&&(document.body.style.overflow=v,v=void 0)}function i(){if(void 0!==f){var e=-parseInt(document.body.style.top,10),o=-parseInt(document.body.style.left,10);document.body.style.position=f.position,document.body.style.top=f.top,document.body.style.left=f.left,window.scrollTo(o,e),f=void 0}}var c="undefined"!=typeof window&&window.navigator&&window.navigator.platform&&(/iP(ad|hone|od)/.test(window.navigator.platform)||"MacIntel"===window.navigator.platform&&1<window.navigator.maxTouchPoints),s=[],u=!1,a=-1,v=void 0,f=void 0,m=void 0;exports.disableBodyScroll=function(r,e){if(r){if(!s.some(function(e){return e.targetElement===r})){var o={targetElement:r,options:e||{}};s=[].concat(function(e){if(Array.isArray(e)){for(var o=0,t=Array(e.length);o<e.length;o++)t[o]=e[o];return t}return Array.from(e)}(s),[o]),c?window.requestAnimationFrame(function(){if(void 0===f){f={position:document.body.style.position,top:document.body.style.top,left:document.body.style.left};var e=window,o=e.scrollY,t=e.scrollX,n=e.innerHeight;document.body.style.position="fixed",document.body.style.top=-o+"px",document.body.style.left=-t+"px",setTimeout(function(){return window.requestAnimationFrame(function(){var e=n-window.innerHeight;e&&n<=o&&(document.body.style.top=-(o+e))})},300)}}):function(e){if(void 0===m){var o=!!e&&!0===e.reserveScrollBarGap,t=window.innerWidth-document.documentElement.clientWidth;if(o&&0<t){var n=parseInt(window.getComputedStyle(document.body).getPropertyValue("padding-right"),10);m=document.body.style.paddingRight,document.body.style.paddingRight=n+t+"px"}}void 0===v&&(v=document.body.style.overflow,document.body.style.overflow="hidden")}(e),c&&(r.ontouchstart=function(e){1===e.targetTouches.length&&(a=e.targetTouches[0].clientY)},r.ontouchmove=function(e){var o,t,n,i;1===e.targetTouches.length&&(t=r,i=(o=e).targetTouches[0].clientY-a,d(o.target)||(t&&0===t.scrollTop&&0<i||(n=t)&&n.scrollHeight-n.scrollTop<=n.clientHeight&&i<0?l(o):o.stopPropagation()))},u||(document.addEventListener("touchmove",l,t?{passive:!1}:void 0),u=!0))}}else console.error("disableBodyScroll unsuccessful - targetElement must be provided when calling disableBodyScroll on IOS devices.")},exports.clearAllBodyScrollLocks=function(){c&&(s.forEach(function(e){e.targetElement.ontouchstart=null,e.targetElement.ontouchmove=null}),u&&(document.removeEventListener("touchmove",l,t?{passive:!1}:void 0),u=!1),a=-1),(c?i:n)(),s=[]},exports.enableBodyScroll=function(o){o?(s=s.filter(function(e){return e.targetElement!==o}),c&&(o.ontouchstart=null,o.ontouchmove=null,u&&0===s.length&&(document.removeEventListener("touchmove",l,t?{passive:!1}:void 0),u=!1)),(c?i:n)()):console.error("enableBodyScroll unsuccessful - targetElement must be provided when calling enableBodyScroll on IOS devices.")}});
+</script></head><body><div class="navbar-white"><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left-container shadow-three w-nav"><div class="container-2"><div class="navbar-wrapper white"><a href="/" class="navbar-brand w-nav-brand"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/65d65f569ed983369f148ea1_litmaps-white-logo-r.svg" loading="lazy" width="200" alt="" class="image-16"/></a><nav role="navigation" class="nav-menu-wrapper w-nav-menu"><ul role="list" class="nav-menu-two w-list-unstyled"><li class="list-item"><div data-hover="true" data-delay="0" class="dropdown w-dropdown"><div class="dropdown-toggle w-dropdown-toggle"><div class="icon-2 white dark w-icon-dropdown-toggle"></div><div class="text-block-41white white dark">About</div></div><nav class="dropdown-list w-dropdown-list"><a href="/about/us" class="dropdown-link w-dropdown-link">About Litmaps</a><a href="/about/litmaps-for-students" class="dropdown-link-3 w-dropdown-link">Litmaps for Students</a><a href="/about/for-researchers" class="dropdown-link-3 w-dropdown-link">Litmaps for Researchers</a><a href="/about/for-professionals" class="dropdown-link-3 w-dropdown-link">Litmaps for Professionals</a><a href="/about/litmaps-for-teams" class="dropdown-link-3 w-dropdown-link">Litmaps for Teams</a><a href="/about/for-institutions" class="dropdown-link-2 w-dropdown-link">Litmaps for Institutions</a><a href="/about/teach-with-litmaps" class="dropdown-link-3 w-dropdown-link">Teach with Litmaps</a></nav></div><a href="/features" class="nav-link white dark">Features</a><a href="/pricing" class="nav-link white dark">Pricing</a><a href="/company" class="nav-link white dark">Company</a><a href="/research-help" class="nav-link white dark">Blog</a></li><li class="mobile-margin-top-10"><a href="https://app.litmaps.com/sign-in" target="_blank" class="button login-button w-button">Login</a></li></ul></nav><div class="menu-button w-nav-button"><div class="icon w-icon-nav-menu"></div></div></div></div></div></div><div class="hero-background features"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345de4579ef9236e1cec7ab_Hero%20Mask.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345de4579ef9236e1cec7ab_Hero%20Mask-p-500.png 500w, https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345de4579ef9236e1cec7ab_Hero%20Mask-p-800.png 800w, https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345de4579ef9236e1cec7ab_Hero%20Mask-p-1080.png 1080w, https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345de4579ef9236e1cec7ab_Hero%20Mask-p-1600.png 1600w, https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345de4579ef9236e1cec7ab_Hero%20Mask.png 1679w" alt="hero-mask" class="image"/><div class="container hero-container w-container"><h1 class="hero-title">Page Not Found</h1></div><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6391398fd643600f4919c08b_left-dot.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6391398fd643600f4919c08b_left-dot-p-500.png 500w, https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6391398fd643600f4919c08b_left-dot-p-800.png 800w, https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6391398fd643600f4919c08b_left-dot.png 1746w" alt="" class="left-dot"/><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6391398fcdae5b006217d3d4_right-dot.png" loading="lazy" alt="" class="right-dot"/></div><div class="w-layout-blockcontainer container-20 w-container"><h2>404 PAGE NOT FOUND</h2><div class="text-block-54">Unfortunately, the page you are looking for doesn&#x27;t exist or has been moved.</div><a href="/" class="button-16 w-button">GO BACK HOME</a></div><section class="footer"><div class="container-4"><div class="footer-wrapper-three"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/65d65f569ed983369f148ea1_litmaps-white-logo-r.svg" loading="lazy" alt=""/><div class="footer-block-three"><a href="/about/us" class="footer-link-three">About</a><a href="/features" class="footer-link-three">Features</a><a href="/pricing" class="footer-link-three">Pricing</a><a href="/company" class="footer-link-three">Company</a><a href="/research-help" class="footer-link-three footer-link-last">Blog</a></div><a href="/contact" class="helpcenter-button w-inline-block"><div class="small-button-text">Contact Us</div><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/678476ef702dd12b8a1186fc_help.svg" loading="lazy" alt="" class="small-button-icon"/></a><div class="social-media social-media-mobile"><a href="https://nz.linkedin.com/company/litmaps" class="link-block-2 w-inline-block"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345d29d3bd0c190d692c68b_Linkedin.svg" loading="lazy" alt=""/></a><a href="https://www.facebook.com/litmaps/" class="w-inline-block"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/6345d2a69142eee9939f1886_Facebook.svg" loading="lazy" alt=""/></a><a href="https://twitter.com/litmapsapp" class="social-media-link w-inline-block"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/63743882aeb3b31ce838389f_twitter.svg" loading="lazy" alt="" class="social-media-icon"/></a></div></div><div class="footer-divider-two"></div><div class="footer-bottom"><div class="footer-legal-block"><a href="/terms-and-conditions" class="footer-legal-link footer-legal-link-no-margin-left">Terms and Conditions</a><a href="/privacy-policy" class="footer-legal-link">Privacy Policy</a><a href="/attributions" class="footer-legal-link">Attributions &amp; Notices</a></div><div class="social-media"><a href="https://www.youtube.com/channel/UCXR6ETBi7ZZKLFE_7ongiTg" target="_blank" class="social-media-link w-inline-block"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/638eacc056ebf582ffd6eb80_youtube.png" loading="lazy" alt="" class="social-media-icon youtube"/></a><a href="https://x.com/litmapsapp" target="_blank" class="social-media-link w-inline-block"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/638eacc0fc369eb7b1a7e755_twitter.png" loading="lazy" alt="" class="social-media-icon"/></a><a href="https://nz.linkedin.com/company/litmaps" target="_blank" class="social-media-link w-inline-block"><img src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/65656841d82f0c58639533bd_linkedin.png" loading="lazy" alt="" class="social-media-icon"/></a></div></div><div><div class="footer-copyright">© 2025 Litmaps Ltd. All rights reserved</div></div></div></section><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6343739329c53451d4f4a69a" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/js/webflow.schunk.a2b2f24073fb95ce.js" type="text/javascript" integrity="sha384-+l1cmc/acVfD8Iaifmf/O0aPgDA1DjLTi8SQ78YLcUYaA/UBIn10jPBNIiykJFsn" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/js/webflow.schunk.b5d8fbb291dd63fd.js" type="text/javascript" integrity="sha384-DAkEayOz3iOOAFdJo3FQe5v4LtB4Pa1KV7rSe4QQQC0GUxm7TSw7asd8dplN9Gql" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6343739329c53451d4f4a69a/js/webflow.d16c046b.6e25bea179450d6f.js" type="text/javascript" integrity="sha384-4ruLJqbyt3wguDGRHgF/WknmcTlcPr43ihwSPLM0oaL0Jh7CCQuQDpVK5uybmDuC" crossorigin="anonymous"></script><noscript id="google-tag-manager">
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMJLQ8K" width="0" height="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<script>
+  	// This is required for pages with lightboxes.
+  	// It also requires bodyScrollLock.js, imported in Head
+  
+	// Use like this on your pages
+	//$(".case-study-open-button").click(function(){
+	//	window.litmaps.openLightbox(".case-study-lightbox");
+    //});
+  
+  	if(!window.litmaps){
+      window.litmaps = {};
+    }
+	window.litmaps.openLightbox = function(selector){
+  		var lb = $(selector);
+    	if(bodyScrollLock){
+    		bodyScrollLock.disableBodyScroll(lb.get());
+   		} else {
+    		console.warn("No bodyScrollLock found");
+        }
+    	lb.addClass("open");
+    	lb.addClass("displayed");
+    	lb.find(".lightbox-container").addClass("open");
+    }
+  
+	$(".close-lightbox-button").click(function(){
+	    var lb = $(this).closest(".lightbox");
+  		$(this).closest(".lightbox-container").removeClass("open");
+	    lb.removeClass("open");
+	    if(bodyScrollLock){
+    		console.log("bodyScrollLock found, disabling");
+    	    bodyScrollLock.enableBodyScroll(lb.get());
+	    }
+    	setTimeout(function(){
+	    	lb.removeClass("displayed");
+	    }, 500);
+	})
+</script></body></html>
